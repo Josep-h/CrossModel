@@ -291,7 +291,7 @@ class ContrastiveLoss(nn.Module):
 
         return cost_s.sum() + cost_im.sum()
 
-
+# MAIN MODEL
 class XRN(object):
     def __init__(self, opt):
         # Build Models
